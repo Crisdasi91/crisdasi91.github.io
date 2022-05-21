@@ -1,0 +1,131 @@
+.cuerpoPagina{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cabeceraPagina{
+    background-color: rgb(4, 16, 42);
+    width: 100%;
+    display: flex; 
+    border-bottom: 2px solid lightskyblue;
+}
+.listMenu{
+    width: 80%;
+    margin: auto;
+}
+#imgMenu{
+   width: 5%;
+   padding-left: 2%;
+}
+#imgMenu img{
+    width: 100%;
+}
+.listMenu ul{
+   display: flex;
+   list-style: none;
+   color: whitesmoke;
+   font-size: 20pt;
+   justify-content: space-between;
+
+}
+
+.listMenu ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.piePagina{
+    background-color: rgb(4, 16, 42);
+    width: 100%;
+    display: flex; 
+    border-top: 2px solid lightskyblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: whitesmoke;
+    justify-content: space-around;
+    padding: 5px;
+
+}
+.listMenu a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#contenidoPagina{
+    border: 2px solid lightskyblue;
+    text-align: left;
+    padding: 20px;
+
+    background-color: rgb(4,16,42);
+    color: whitesmoke;
+    line-height: 2em;
+    height: 450px;
+    min-height: 450px;
+    margin-top: 35px;
+}
+#terminos{
+    text-align: end;
+}
+#contenidoPagina div{
+    margin: .4em 0;
+}
+
+#contenidoPagina label{
+    width: 28%;
+    float: left;
+    font-size: 12pt;
+}
+#imageForm{
+    width: 20%;
+    margin-left:75%;
+    float: right;
+}
+#contenidoPagina legend{
+    font-size: 18pt;
+    color: lightskyblue;
+}
+
+#imageForm a{
+    cursor: pointer; 
+}
+
+#imageForm img{
+    margin: 0 0 4px 0;
+    width: 80%;
+}
+
+#imageForm img:hover{
+    margin: 2px 0 2px 0;
+    width: 80%;
+}
+#formContent input{
+    border: 2px solid lightskyblue;
+    outline: 0px;
+}
+#formContent select{
+    border: 2px solid lightskyblue;
+    outline: 0px;
+}
+
+#formContent fieldset{
+    height: 430px;
+}
+
+html {
+    background: url(../img/background_index.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 45%;
+}
+
+
+#selected-menu{
+    text-decoration: underline;
+}

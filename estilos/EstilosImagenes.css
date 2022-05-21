@@ -1,0 +1,93 @@
+.cuerpoPagina{
+   
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cabeceraPagina{
+    background-color: rgb(4, 16, 42);
+    width: 100%;
+    display: flex; 
+    border-bottom: 2px solid lightskyblue;
+}
+.listMenu{
+    width: 80%;
+    margin: auto;
+}
+#imgMenu{
+   width: 5%;
+   padding-left: 2%;
+}
+#imgMenu img{
+    width: 100%;
+}
+.listMenu ul{
+   display: flex;
+   list-style: none;
+   color: whitesmoke;
+   font-size: 20pt;
+   justify-content: space-between;
+
+}
+
+.listMenu ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.piePagina{
+    background-color: rgb(4, 16, 42);
+    width: 100%;
+    display: flex; 
+    border-top: 2px solid lightskyblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: whitesmoke;
+    justify-content: space-around;
+    padding: 5px;
+
+}
+
+.listMenu a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#contenidoPagina{
+    margin: auto;
+    text-align: center;
+}
+#imgTitle{
+    float: left;
+    text-align: center;
+    width: 100%;
+    background-color: palevioletred;
+    color: black;
+}
+.grid_container{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr); 
+ padding:20px;
+ margin: auto;
+ width: 90%;
+ margin-bottom: 20px;
+}
+
+.grid-item{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    text-align: center;
+    margin:auto;
+}
+
+.grid-item img {
+    width: 450px;
+}
+
+.grid-item:hover{
+    text-decoration: underline;
+}
+
+#selected-menu{
+    text-decoration: underline;
+}

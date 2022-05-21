@@ -1,0 +1,142 @@
+.cuerpoPagina{
+   
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cabeceraPagina{
+    background-color: rgb(4, 16, 42);
+    width: 100%;
+    display: flex; 
+    border-bottom: 2px solid lightskyblue;
+}
+.listMenu{
+    width: 80%;
+    margin: auto;
+}
+#imgMenu{
+   width: 5%;
+   padding-left: 2%;
+}
+#imgMenu img{
+    width: 100%;
+}
+.listMenu ul{
+   display: flex;
+   list-style: none;
+   color: whitesmoke;
+   font-size: 20pt;
+   justify-content: space-between;
+
+}
+.listMenu > li > a:active:before{
+    color: lightskyblue;
+}
+
+.piePagina{
+    background-color: rgb(4, 16, 42);
+    width: 100%;
+    display: flex; 
+    border-top: 2px solid lightskyblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: whitesmoke;
+    justify-content: space-around;
+    padding: 5px;
+
+}
+
+.listMenu a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#contenidoPagina{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    
+}
+#imgTitle{
+    text-align: center;
+    width: 100%;
+    float: left;
+    background-color: palevioletred;
+    color: black;
+}
+.noticias {
+    width: 60%;
+    border: 2px solid black;
+    text-align: center;
+    float: left;
+    margin: 20px 20%;
+}
+
+.noticias h3{
+    text-align: center;
+}
+.img_noticia img{
+    width: 100%;
+    float: left;
+}
+.img_noticia{
+    width:33%;
+    padding: 5px;
+    float: left;
+}
+.texto-noticia{
+    width: 63%;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+.titulo{
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: left;
+    padding-top:5px;
+}
+
+
+.descripcion{
+    line-height: 1.5em;
+    float: left;
+    width: 100%;
+}
+
+.tags {
+    width: 80%;
+    float:left;
+}
+
+.texto-secundario{
+    font-size: 12pt;
+    font-style: italic;
+    color:#555555;
+    float: left;
+}
+.tag{
+    border: 1px solid rgb(4, 16, 42);
+    color: rgb(4, 16, 42);
+    float: left;
+    margin:0 5px;
+    padding:0 5px;
+    border-radius: 5px;
+    
+}
+.leer_noticia{
+    width: 20%;
+    float: left;
+    text-align: right;
+}
+
+#lista-noticias{
+    float: left;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+#selected-menu{
+    text-decoration: underline;
+}

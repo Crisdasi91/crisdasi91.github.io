@@ -1,0 +1,197 @@
+.cuerpoPagina {
+
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cabeceraPagina {
+    background-color: rgb(4, 16, 42);
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid lightskyblue;
+}
+
+.listMenu {
+    width: 80%;
+    margin: auto;
+}
+
+#imgMenu {
+    width: 5%;
+    padding-left: 2%;
+}
+
+#imgMenu img {
+    width: 100%;
+}
+
+.listMenu ul {
+    display: flex;
+    list-style: none;
+    color: whitesmoke;
+    font-size: 20pt;
+    justify-content: space-between;
+
+}
+
+.listMenu ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.piePagina {
+    background-color: rgb(4, 16, 42);
+    width: 100%;
+    display: flex;
+    border-top: 2px solid lightskyblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: whitesmoke;
+    justify-content: space-around;
+    padding: 5px;
+
+}
+
+.listMenu a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#contenidoPagina {
+    margin: auto;
+    text-align: center;
+}
+
+#imgTitle {
+    float: left;
+    text-align: center;
+    width: 100%;
+    background-color: palevioletred;
+    color: black;
+}
+
+.fichas {
+    width: 75%;
+    float: right;
+    text-align: left;
+    margin: 20px;
+    border:2px dashed lightskyblue;
+}
+
+.fichas-principal {
+    width: 320px;
+    float: left;
+    margin: auto;
+    padding: 10px;
+}
+
+.fichas-principal img {
+    width: 300px;
+    
+}
+
+.fichas ul {
+    margin-left: 15px;
+    line-height: 1.5em;
+}
+
+.social-media {
+    width: 23%;
+    height: 32px;
+    margin: auto;
+    float: left;
+    text-align: center;
+}
+
+.social-media img {
+    width: 32px;
+    float: left;
+}
+
+.sm-text {
+    height: 20px;
+    vertical-align: middle;
+    margin: 6px;
+    width: 75%;
+    text-align: left;
+    float: left;
+}
+
+.fichas ul {
+    list-style: none;
+}
+.fichas a{
+    text-decoration: none;
+    color: black;
+}
+.videos {
+    width: 100%;
+    float: left;
+    margin: auto;
+    
+}
+
+.videos h3 {
+
+    text-align: center;
+    margin: 20px 0;
+}
+
+.videos-galeria {
+    display: flex;
+    margin:auto;
+}
+.video-element{
+    flex-grow: 1;
+	width: 33%;
+    text-align: center;
+}
+
+.video-element iframe{
+	width: 95%;
+    height: 260px;
+}
+
+.ver-mas-videos{
+    width: 45%;
+    text-align: center;
+    margin: 10px auto;
+    background-color: rgb(4, 16, 42);
+    
+    padding: 15px;
+    
+}
+.ver-mas-videos a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+#img_ficha{
+    width: 65%;
+    margin-left: 50px;
+}
+#menu_lateral{
+    float: left;
+    border:5px solid lightskyblue;
+    text-align: left;
+    line-height: 2em;
+    padding: 20px;
+    margin: 80px 20px 20px 20px;
+    position:fixed;
+}
+#menu_lateral a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black ;
+}
+
+#lista-fichas{
+    float: left;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+
+#selected-menu{
+    text-decoration: underline;
+}

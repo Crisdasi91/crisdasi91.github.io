@@ -1,0 +1,145 @@
+.cuerpoPagina{
+   
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cabeceraPagina{
+    background-color: rgb(4, 16, 42);
+    width: 100%;
+    display: flex; 
+    border-bottom: 2px solid lightskyblue;
+}
+.listMenu{
+    width: 80%;
+    margin: auto;
+}
+#imgMenu{
+   width: 5%;
+   padding-left: 2%;
+}
+#imgMenu img{
+    width: 100%;
+}
+.listMenu ul{
+   display: flex;
+   list-style: none;
+   color: whitesmoke;
+   font-size: 20pt;
+   justify-content: space-between;
+
+}
+
+.listMenu ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.piePagina{
+    background-color: rgb(4, 16, 42);
+    width: 100%;
+    display: flex; 
+    border-top: 2px solid lightskyblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: whitesmoke;
+    justify-content: space-around;
+    padding: 5px;
+
+}
+
+.listMenu a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#contenidoPagina{
+    margin: auto;
+    text-align: center;
+}
+
+
+html {
+    background: url(../img/background_index.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+table {
+    table-layout: fixed;
+    width: 70%;
+    border-collapse: collapse;
+    color: purple;
+    background-color: whitesmoke;
+    border: 10px double purple;
+    margin: 4% auto 4% auto;
+  }
+  caption{
+      color: whitesmoke;
+      font-size: 16pt;
+      line-height: 2em;
+      font-weight: bold;
+  }
+  thead th:nth-child(1) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 55%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 15%;
+  }
+  
+  th, td {
+    padding: 10px 5px;
+  }
+  #pieTabla{
+      color:rgb(4, 16, 42);
+      font-size: 14pt;
+      letter-spacing: 0.5px;
+  }
+  #titulo-final{
+      color: whitesmoke;
+      font-weight: bolder;
+      font-size: 16pt;
+      float: inline-end;
+      margin-top: 800px;
+  }
+
+
+#frase-celebre{
+    background-color: whitesmoke;
+    width: 40%;
+    border-radius: 5px;
+    border:  5px double purple;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+
+}
+
+#frase {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    
+}
+
+#cita-simbolo{
+    margin:-50px auto 0 auto;
+    z-index: 999;
+    border-radius: 50px;
+    border: 3px solid purple;
+    background-color: whitesmoke;
+    width: 50px;
+    height: 50px;
+    font-size: 36pt;
+    color:purple;
+}
